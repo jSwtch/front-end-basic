@@ -10,6 +10,7 @@ solution must have the following functionality
 * demonstrate sass functionality
 * pull data from an open api
 * conditionally display data to the user
+* push to git repo
 
 Bonus points for brutalism style
 
