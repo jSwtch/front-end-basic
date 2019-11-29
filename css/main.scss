@@ -1,0 +1,76 @@
+// scss modules
+$font-stack:    Helvetica, sans-serif;
+$primary-color: teal;
+
+// scss mixins
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1  {
+  color: red;
+}
+
+button {
+  padding: 1em 3em;
+  font-size: 24px;
+  background: rgb(2,0,36);
+  background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(59,9,121,1) 32%, rgba(0,212,255,1) 100%);
+  color: white;
+}
+.cat-box {
+  position: relative;
+}
+
+.click-counter {
+  position: absolute;
+  font-size: 64px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  height: 88px;
+  width: 88px;
+  color: white;
+  background: black;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#post-list {
+  content: ''
+}
+
+// scss nesting
+body {
+  h1 {
+  font-size: 48px;
+}
+}
+
+// scss modules
+span {
+  color: $primary-color !important;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+// scss mixins
+.cat-box { @include transform(rotate(15deg)); }
+
+
+
+
+

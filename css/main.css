@@ -1,0 +1,50 @@
+body {
+  font-family: 'Courier New', Courier, monospace; }
+
+h1 {
+  color: red; }
+
+button {
+  padding: 1em 3em;
+  font-size: 24px;
+  background: #020024;
+  background: linear-gradient(45deg, #020024 0%, #3b0979 32%, #00d4ff 100%);
+  color: white; }
+
+.cat-box {
+  position: relative; }
+
+.click-counter {
+  position: absolute;
+  font-size: 64px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  height: 88px;
+  width: 88px;
+  color: white;
+  background: black;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#post-list {
+  content: ''; }
+
+body h1 {
+  font-size: 48px; }
+
+span {
+  color: teal !important; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: teal; }
+
+.cat-box {
+  -webkit-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  transform: rotate(15deg); }
